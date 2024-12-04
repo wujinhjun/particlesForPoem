@@ -1,0 +1,16 @@
+.p5 {
+  text-align: center;
+  animation: loading 0.5s linear;
+}
+
+@keyframes loading {
+  from {
+    scale: 0;
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    scale: 1;
+    -webkit-transform: scale(1);
+  }
+}
